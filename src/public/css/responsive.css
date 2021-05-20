@@ -1,0 +1,252 @@
+  /*
+  ========================================================================
+  VERSION : 1.0
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Template Name   : RD-JENNY
+  Author          : RAHUL DAS
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Copyright (c) 2018 
+  ========================================================================
+  */
+  /* Medium Layout: 1280px. */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    /*SERVICES AREA START */
+    .services-box h2 {
+      text-align: center;
+      color: #000000;
+      font-size: 17px;
+      font-family: 'Roboto', sans-serif;
+    }
+    /* SEARVICES AREA END */
+  }
+  /*   ***** Tablet Layout: 768px.  ******     */
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+    /* HOME AREA START */
+    #typed {
+      color: #fff;
+      font-size: 32px;
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .typed-cursor {
+      color: #707275;
+      font-size: 32px;
+    }
+    /* HOME AREA END */
+    /* ABOUT ARE START */
+    .profile-area {
+      padding-top: 55px;
+      padding-bottom: 55px;
+    }
+    .headline h1 {
+      text-align: center;
+      color: #000000;
+      margin-bottom: 55px;
+    }
+    /* ABOUT AREA END */   
+    /* HOBBY AREA START */
+    .hobby-box {
+      background-color: #f2f2f2;
+      padding: 15px;
+      text-align: center;
+      /* margin: 2px; */
+      /* padding-bottom: 18px; */
+      margin-bottom: 25px;
+      box-shadow: 0 1px 27px -3px rgba(0,0,0,.5);
+    }
+    .headline h2 {
+      text-align: center;
+      color: #000000;
+      margin-bottom: 55px;
+      font-size: 22px;
+    }
+    .hobby-area {
+      padding-top: 0px;
+      padding-bottom: 55px;
+      background-color: #ffffff;
+    }   
+    /* HOBBY AREA END */   
+    /* RESUME AREA START */
+    .resume-area {
+      background-color:#f2f2f2;;
+      padding-top: 55px;
+      padding-bottom: 55px;
+    }
+    .sub-section2 {
+      padding-top: 55px;
+    }
+    /* SERVICES AREA START */
+    .services-area {
+      padding-top: 55px;
+      padding-bottom: 55px;
+    }
+    .services-box {
+      background-color: #f2f2f2;
+      padding: 15px;
+      text-align: center;
+      /* margin: 2px; */
+      margin-bottom: 25px;
+      box-shadow: 0 1px 27px -3px rgba(0,0,0,.5);
+    }
+    .contact-form {
+      padding-top: 55px;
+    }   
+  }
+  /*  ***** Mobile Layout: 320px. *****    */
+  @media only screen and (max-width: 767px) { 
+   /* HOME AREA START */
+   #typed {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  .typed-cursor {
+    color: #707275;
+    font-size: 16px;
+  }
+  .vl {
+    border-left: 3px solid #8065ff;
+    height: 180px;
+    position: absolute;
+    left: -3%;
+    margin-left: -3px;
+    top: 0;
+  }
+  /* HOME AREA END */
+  /* ABOUT AREA START */
+  .profile-area {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  .headline h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 55px;
+  }
+  .headline h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 55px;
+    font-size: 20px;
+  }
+  .hobby-box {
+    background-color: #f2f2f2;
+    padding: 15px;
+    text-align: center;
+    /* margin: -2px; */
+    /* padding-bottom: 11px; */
+    margin-bottom: 15px;
+    box-shadow: 0 1px 27px -3px rgba(0,0,0,.5);
+  }
+  .hobby-area {
+    padding-top: 0px;
+    padding-bottom: 55px;
+    background-color: #ffffff;
+  }
+  .sub-section2 {
+    padding-top: 55px;
+  }
+  /* SEARVICES AREA */
+  .services-area {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  .services-box {
+    background-color: #f2f2f2;
+    padding: 15px;
+    text-align: center;
+    margin: 2px;
+    box-shadow: 0 1px 27px -3px rgba(0,0,0,.5);
+    margin-bottom: 15px;
+  }    
+  /* RESUME AREA START */
+  .resume-area {
+    background-color: #f2f2f2;
+    padding-top: 55px;
+    padding-bottom: 0px;
+  }
+  .resume-details .item:nth-child(odd) .box:before, 
+  .resume-details .item:nth-child(odd) .box:after, 
+  .resume-details .item:nth-child(even) .box:before, 
+  .resume-details .item:nth-child(even) .box:after {
+    content: '';
+    display: none;
+  }
+  .resume-details:before, 
+  .resume-details:after {
+    content: '';
+    display: none;
+  }
+  .resume-details .item .col-sm-6:nth-child(even){
+    padding-left: 15px;
+  }
+  .resume-details .item .col-sm-6:nth-child(odd){
+    padding-right: 15px;
+  }
+  .resume-details .item:nth-child(even) .col-sm-6:first-child{
+    padding-left: 15px;
+    text-align: right;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .resume-details .item:nth-child(even) .col-sm-6:nth-child(2) {
+    padding-right: 15px;
+    text-align: left;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .resume-details .item .box, 
+  .resume-details .item:nth-child(even) .box {
+    float: none;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  .box_dec {
+    padding: 24px 30px;
+    background: #f2f2f2;
+    margin-bottom: 50px;
+  }
+  .resume-details .description{    
+    margin-bottom: 10px;
+  } 
+  .sub-section2 {
+    padding-top: 0px;
+  }
+  /*RESUME AREA END */
+  /* PORTFOLIO AREA  */
+  .portfolio-area {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    
+  }
+  /* CONTACT AREA */
+  .contact-area {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  .contact-form{
+    padding-top: 55px;
+  }
+  .c-text {
+    color: #333;
+    font-size: 15px;
+    padding-left: 14px;
+  }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+ #typed {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.typed-cursor {
+  color: #707275;
+  font-size: 16px;
+}
+}
